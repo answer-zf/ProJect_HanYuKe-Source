@@ -1,0 +1,644 @@
+/* 公共部分样式 */
+.page-banner > img {
+  width: 100%;
+}
+.page-banner {
+  margin-top: 80px;
+}
+
+.page-bannerMin > img {
+  width: 100%;
+}
+/* 标题公共样式 */
+.title {
+  position: relative;
+}
+.title h2 {
+  display: inline-block;
+  margin: 0;
+  font-size: 80px;
+  color: #e11b12;
+  text-align: left;
+}
+.title .titleText {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+}
+.title p {
+  margin: 0;
+  font-size: 24px;
+  margin-left: 6px;
+  margin-top: 4px;
+  /* font-weight: 700; */
+}
+.title .titleMin {
+  position: relative;
+  width: 266px;
+  left: 50%;
+  margin-left: -133px;
+}
+.title h4 {
+  margin: 0;
+  font-size: 34px;
+  text-align: left;
+  letter-spacing: 6px;
+  margin-left: 6px;
+}
+.mt80 {
+  margin-top: 80px;
+}
+.mb80 {
+  margin-bottom: 80px;
+}
+.mt60 {
+  margin-top: 60px;
+}
+.mt40 {
+  margin-top: 40px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.p30 {
+  padding: 30px 0;
+}
+.mb60 {
+  margin-bottom: 60px;
+}
+.pt60 {
+  padding-top: 60px;
+}
+.originPart1Bg .title .titleMin {
+  width: 302px;
+  margin-left: -151px;
+}
+.originPart3 .title .titleMin {
+  width: 272px;
+}
+.foodTitle .title .titleMin {
+  width: 272px;
+}
+.d-bc {
+  display: block;
+}
+.coopPart1 .title .titleMin {
+  width: 348px;
+  margin-left: -174px;
+}
+.coopPart2 .title .titleMin {
+  width: 300px;
+  margin-left: -150px;
+}
+.coopPart3 .title .titleMin {
+  width: 348px;
+  margin-left: -174px;
+}
+.news .title .titleMin {
+  width: 285px;
+  margin-left: -143px;
+}
+
+@media (max-width: 768px) {
+  .mt80 {
+    margin-top: 40px;
+  }
+  .mb60 {
+    margin-bottom: 30px;
+  }
+  .pt60 {
+    padding-top: 30px;
+  }
+}
+/********************************** 关于我们 *********************************/
+
+.originPart1 .container {
+  padding: 0;
+}
+.originPart1 .row:nth-of-type(2) .col-md-5 {
+  padding: 0;
+}
+.originPart1 .row:nth-of-type(2) .col-md-7 {
+  padding-left: 40px;
+  padding-right: 50px;
+}
+.originPart1 .row:nth-of-type(2) .col-md-7 h6 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.originPart1 .row:nth-of-type(2) .col-md-7 span {
+  font-size: 20px;
+  line-height: 38px;
+  text-indent: 2em;
+  display: block;
+  letter-spacing: 1px;
+}
+.originPart1 .row:nth-of-type(2) .col-md-7 span:nth-of-type(2) {
+  margin-top: 8px;
+}
+
+.originPart1Bg {
+  height: 458px;
+  background: url(../img/originPart1Pic2.jpg) center center;
+}
+.originPart1Bg h2 {
+  color: #fff;
+}
+.originPart1Bg h4 {
+  color: #fff;
+}
+.originPart1Bg p {
+  color: #fff;
+}
+.originPart1Bg h3 {
+  font-size: 36px;
+  color: #fff;
+
+  text-align: center;
+  letter-spacing: 8px;
+}
+.originPart1Bg h3:nth-of-type(1) {
+  margin-top: 70px;
+}
+.originPart1Bg h3:nth-of-type(2) {
+  margin-top: 30px;
+}
+.originPart2 h4 {
+  font-size: 24px;
+}
+.originPart2 .col-md-3 {
+  background: #eaa9a9;
+  padding: 30px 15px;
+  color: #fff;
+  line-height: 24px;
+}
+.originPart2 .col-md-3:nth-of-type(even) {
+  background: #ea9c9c;
+}
+
+.originPart3 img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .originPart1Bg h3:nth-of-type(1) {
+    margin-top: 30px;
+  }
+  .originPart1Bg h3 {
+    font-size: 34px;
+    line-height: 56px;
+  }
+  .originPart1Bg h3:nth-of-type(2) {
+    margin-top: 0;
+  }
+  .originPart2 .col-md-3 {
+    margin-bottom: 30px;
+  }
+}
+/* 菜品 */
+
+/* 选项卡导航 */
+
+#foodTab .tab-selecter .tab_top {
+  width: 1170px;
+  margin: auto;
+  border-bottom: 1px solid transparent;
+}
+#foodTab .nav-tabs > li.active > a,
+#foodTab .nav-tabs > li.active > a:focus,
+#foodTab .nav-tabs > li.active > a:hover {
+  color: #fff;
+  cursor: default;
+  background-color: #e11b12;
+  border-color: transparent;
+}
+#foodTab .nav-tabs > li {
+  width: 167px;
+  text-align: center;
+}
+#foodTab .nav-tabs > li > a > p {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+#foodTab .nav-tabs > li > a {
+  margin-right: 16px;
+  line-height: 32px;
+  border: 1px solid transparent;
+  border-radius: 0px 0px 0 0;
+  background: #000;
+  color: #fff;
+}
+#foodTab .nav-tabs > li:last-child > a {
+  margin-right: 0;
+}
+#foodTab .tab-content .container {
+  padding: 0;
+}
+#foodTab .tab-content .col-md-4 img {
+  width: 100%;
+}
+#foodTab .tab-content .col-md-4 {
+  position: relative;
+  margin-bottom: 30px;
+}
+#foodTab .tab-content .col-md-4 .mask {
+  height: 66px;
+  width: 100%;
+  background: #000;
+  opacity: 0.6;
+  margin-top: -66px;
+}
+#foodTab .tab-content .col-md-4 b {
+  font-size: 28px;
+  letter-spacing: 4px;
+  color: #fff;
+  line-height: 66px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-left: -15px;
+  position: absolute;
+  bottom: 0px;
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  /* #foodTab .tab-content .col-md-4 b {
+    margin-left: 0px;
+  } */
+  .tab-content .row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+/* 合作 */
+.coopPart1 h5 {
+  display: inline-block;
+  font-size: 62px;
+  color: #e11b12;
+  margin-bottom: 6px;
+  /* margin-top:0; */
+}
+.coopPart1 b {
+  display: inline-block;
+  width: 440px;
+  position: absolute;
+  top: 13px;
+  line-height: 32px;
+  font-size: 16px;
+  left: 114px;
+}
+.coopPart1 .col-md-6 {
+  padding: 0 33px;
+  line-height: 24px;
+  position: relative;
+}
+.coopPart1 .col-md-6 > div {
+  border-bottom: 1px dashed #999;
+}
+.coopPart1 .col-md-6 > .coopPart1-3,
+.coopPart1 .col-md-6 > .coopPart1-6 {
+  border-color: transparent;
+}
+.coopPart1-2 b {
+  top: 113px;
+}
+.coopPart1-3 b {
+  top: 185px;
+}
+.coopPart1 .row:nth-of-type(2) .col-md-6:nth-of-type(1) {
+  border-right: 1px dashed #999;
+}
+.coopPart1-4 b {
+  top: 32px;
+}
+.coopPart1-5 b {
+  top: 116px;
+}
+.coopPart1-6 b {
+  top: 198px;
+}
+.coopPart2 .row:nth-of-type(2) {
+  position: relative;
+}
+.coopPart2 .row:nth-of-type(2) img {
+  position: absolute;
+  left: 50%;
+  margin-left: -285px;
+}
+.coopPart2 .row:nth-of-type(2) p {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.coopPart2 .row:nth-of-type(2) em {
+  font-style: normal;
+  color: #e11b12;
+}
+.coopPart2 .row:nth-of-type(2) > .col-md-6 p:nth-of-type(1) {
+  margin-top: 12px;
+}
+.coopPart2 .row:nth-of-type(2) > .col-md-6 p:nth-of-type(4) {
+  margin-top: 105px;
+}
+.coopPart2 .row:nth-of-type(2) > .col-md-6:nth-of-type(1) p:nth-of-type(1) {
+  margin-left: 138px;
+}
+.coopPart2 .row:nth-of-type(2) > .col-md-6:nth-of-type(1) p:nth-of-type(2) {
+  margin-left: 58px;
+}
+.coopPart2 .row:nth-of-type(2) > .col-md-6:nth-of-type(1) p:nth-of-type(4) {
+  margin-left: 12px;
+}
+.coopPart2 .row:nth-of-type(2) > .col-md-6:nth-of-type(1) p:nth-of-type(5) {
+  margin-left: 90px;
+}
+.coopPart2 .row:nth-of-type(2) > .col-md-6:nth-of-type(1) p:nth-of-type(6) {
+  margin-left: 192px;
+  margin-top: -3px;
+}
+.coopPart2 .row:nth-of-type(2) > .col-md-6:nth-of-type(2) p:nth-of-type(1) {
+  margin-right: 147px;
+}
+.coopPart2 .row:nth-of-type(2) > .col-md-6:nth-of-type(2) p:nth-of-type(2) {
+  margin-right: 78px;
+}
+.coopPart2 .row:nth-of-type(2) > .col-md-6:nth-of-type(2) p:nth-of-type(3) {
+  margin-right: 104px;
+}
+.coopPart2 .row:nth-of-type(2) > .col-md-6:nth-of-type(2) p:nth-of-type(4) {
+  margin-right: 95px;
+}
+.coopPart2 .row:nth-of-type(2) > .col-md-6:nth-of-type(2) p:nth-of-type(5) {
+  margin-right: 15px;
+}
+.coopPart2 .row:nth-of-type(2) > .col-md-6:nth-of-type(2) p:nth-of-type(6) {
+  margin-right: 192px;
+  margin-top: -3px;
+}
+.coopPart2 b {
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  color: #fff;
+  font-size: 24px;
+  left: 50%;
+  line-height: 42px;
+  top: 281px;
+  margin-left: -211px;
+}
+
+.coopPart3 .col-md-3 > h4 {
+  font-size: 52px;
+  font-family: "宋体";
+  text-align: center;
+  font-weight: 700;
+  border: 2px dashed #e11b12;
+  line-height: 72px;
+  margin-bottom: 24px;
+}
+.coopPart3 .col-md-3 > span {
+  font-size: 24px;
+  line-height: 42px;
+  letter-spacing: 2px;
+}
+.coopPart1-phone {
+  display: none;
+}
+.coopPart3-phone {
+  display: none;
+}
+@media (max-width: 768px) {
+  .coopPart1 .col-md-6 {
+    padding: 0 15px;
+  }
+  .coopPart1-phone {
+    display: block;
+  }
+  .coopPart3-phone {
+    display: block;
+  }
+  .coopPart1-phone h4 {
+    font-size: 32px;
+    color: #e11b12;
+    margin-top: 30px;
+  }
+  .coopPart1-phone p {
+    font-size: 24px;
+    line-height: 48px;
+  }
+  .coopPart1-phone .col-xs-12 {
+    border-bottom: 1px dashed #999;
+  }
+  .coopPart3-phone img {
+    width: 100%;
+  }
+}
+/* 联系我们 */
+.contactUs iframe:first-child {
+  border: 1px solid #ccc;
+}
+
+.contactUs .container {
+  padding: 0;
+  position: relative;
+}
+.contactUs .row:nth-of-type(2) {
+  position: absolute;
+  right: 0;
+  top: 148px;
+  overflow: hidden;
+  height: 365px;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-left: transparent;
+}
+.contactUs .col-md-4 {
+  background: #fff;
+  width: 370px;
+  box-shadow: -1px 0 5px #ccc;
+  height: 365px;
+  padding: 0 20px;
+}
+.contactUs .col-md-4 h5 {
+  font-size: 28px;
+  padding-top: 28px;
+  margin-bottom: 24px;
+  font-family: "宋体";
+  font-weight: 700;
+}
+.contactUs .col-md-4 p {
+  margin-bottom: 30px;
+  font-size: 28px;
+  text-align: right;
+  font-family: "宋体";
+  font-weight: 700;
+}
+.contactUs .col-md-4 em {
+  font-style: normal;
+  color: #e11b12;
+}
+#use_contact input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#use_contact .form-control {
+  font-size: 16px;
+  padding: 6px 0;
+}
+#use_contact .form-group {
+  margin-bottom: 26px;
+}
+#use_contact .form-group:nth-of-type(2) {
+  margin-bottom: 36px;
+}
+#use_contact .btn {
+  border-radius: 0;
+  font-size: 16px;
+  padding: 8px 18px;
+  margin-bottom: 40px;
+}
+.d-none {
+  display: none;
+}
+@media (max-width: 768px) {
+  .d-none {
+    display: block;
+    margin: auto;
+  }
+  .d-block {
+    display: none;
+  }
+  .contactUs .row:nth-of-type(2) .col-md-4{
+    box-shadow: none;
+  }
+  .contactUs .row:nth-of-type(2) {
+    position: relative;
+    right: 0;
+    top: 0px;
+    height: 365px;
+    padding: 0;
+    border-color: transparent;
+    margin: auto;
+  }
+}
+/* 新闻 */
+.news h5 {
+  font-size: 28px;
+  margin-top: 19px;
+  color: #333;
+  margin-bottom: 24px;
+  font-family: "宋体";
+  transition: all 0.8s;
+  font-weight: 700;
+}
+.news span {
+  font-size: 16px;
+  color: #999;
+  transition: all 0.8s;
+  line-height: 26px;
+}
+.news p {
+  margin-top: 21px;
+  color: #999;
+  transition: all 0.8s;
+  font-size: 16px;
+}
+.news .col-md-4 {
+  height: 204px;
+  padding-left: 0;
+  overflow: hidden;
+  position: relative;
+}
+.news .col-md-4 img {
+  width: 390px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.8s;
+}
+.news .col-md-8 {
+  padding-left: 30px;
+}
+.news a:hover .col-md-8 {
+  background: #ff372e;
+}
+.news a:hover .col-md-8 h5 {
+  color: #fff;
+}
+.news a:hover .col-md-8 span {
+  color: #fff;
+}
+.news a:hover .col-md-8 p {
+  color: #fff;
+}
+.news a:hover img {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+@media (max-width: 768px) {
+  .news .col-md-8 {
+    padding-left: 6px;
+  }
+  .news h5 {
+    line-height: 45px;
+  }
+}
+/****************************************************** 新闻内容页 **************************************/
+.news-pageCont-zf {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  background: url(../img/newsBg.png);
+}
+.news-pageCont-zf .row:nth-of-type(1) {
+  margin-bottom: 40px;
+}
+.news-pageCont-zf .row:nth-of-type(1) img {
+  max-width: 100%;
+}
+.news-pageCont-zf .news_article .news-articleTop h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.news-pageCont-zf .news_article .news-articleTop p {
+  margin-top: 30px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.news-pageCont-zf .news_article .news-articleTop img {
+  max-width: 100%;
+}
+.news-pageCont-zf .news_articleText span {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 0 24px;
+  display: block;
+  margin-bottom: 14px;
+  text-indent: 2em;
+}
+.news-pageCont-zf .news_articleText span:nth-of-type(1) {
+  margin-top: 46px;
+}
+@media (max-width: 768px) {
+  .news-pageCont-zf .news_article .news-articleTop h3 {
+    line-height: 48px;
+  }
+  .news-pageCont-zf {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  .news-pageCont-zf .row:nth-of-type(1) {
+    margin-bottom: 10px;
+  }
+}
